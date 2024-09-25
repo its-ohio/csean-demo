@@ -11,6 +11,7 @@ def mark_reply():
     logger.info("Webhook Received")
     payload = request.json
 
+    print(payload["from_email"])
     print(payload["body"])
 
     return [200]
