@@ -1,0 +1,38 @@
+# intellij
+.idea
+
+# python
+__pycache__
+poetry.lock
+
+# env files
+*.json
+.env.local
+auth/
+
+# mac os
+.DS_Store
+
+# testing
+playground.py
+.pytest_cache
+
+# python environments
+.venv
+venv
+
+# notebooks
+testing.ipynb
+*.ipynb
+
+# csv-data
+master-files
+normalised-data
+raw-data
+data/
+bin/
+*.csv
+
+# jsonl data
+ft-training-sets
+*.jsonl
